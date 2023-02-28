@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient( #190554, #3b2a72);
+    overflow-y: hidden;
+}
+
+section {
+    max-width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation ul li {
+   font-size: 20px;
+   padding: 0 15px;
+   transition: 0.3s all;
+    
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+.navigation ul li a:hover {
+    color: #1C69A7;
+}
+
+.navigation ul li:hover {
+    transform: translateY(-10px);
+}
+
+.logo {
+    width: 170px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    left: -200px;
+    align-items: center;
+}
+
+.content-text img {
+    margin-bottom: 60px;
+}
+
+
+.content-text div{
+    text-align: center;
+}
+
+.content-text div button {
+    font-size: 22px;
+    color:white;
+    border: none;
+    background-color: transparent;
+    margin-right: 30px;
+    font-weight: 300px;
+    transition: 0.3s all;
+
+}
+
+.content-text div .a:hover {
+    color:#1C69A7;
+    cursor: pointer;
+}
+
+.content-text div .b:hover{
+    background-color: #1C69A7;
+    cursor: pointer;
+}
+
+.content-text div button i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.content-text div button:first-child {
+    display: inline-black;
+    align-items: center;
+}
+
+.content-text div button:last-child {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.content-img{
+    position: relative;
+    display:flex;
+    width: 50vw;
+    height: 60vh;
+
+}
+
+.content-img .pantera{
+    position: absolute;
+    width: 1050px;
+    height: 600px;
+    bottom: -119px;
+    margin-left: -60px;
+
+    
+   
+}
+
+.content-img .namor {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    margin-left: 400px;
+    bottom: 60px;
+    
+    
+}
+
+.content-img .okoye {
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    margin-left: -100px;
+    bottom: 40px;
+}
+
+.content-img .explosion {
+    position: absolute;
+    width: 1300px;
+    height: 930px;
+    bottom: -119px;
+    margin-left: -200px;
+    
+}
+
+
